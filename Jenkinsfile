@@ -22,7 +22,7 @@ jenkinsfileURL = "https://github.com/silaman/apic-cicd/blob/master/Jenkinsfile"
 jenkinsfileBranch = "master"
 
 //Credential objects defined in Jenkins
-gitCredentials = "git private token"
+gitCredentials = "ce338c67-3969-4b3b-800f-31c2b257f915"
 
 //Product yaml file
 def product = "" //Eg: "sample-product_1.0.0.yaml"
