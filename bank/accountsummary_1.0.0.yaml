@@ -1,0 +1,29 @@
+info:
+  version: 1.0.0
+  title: AccountSummary
+  name: accountsummary
+apis:
+  accountservice1.0.0:
+    $ref: accountservice_1.0.0.yaml
+gateways:
+  - datapower-api-gateway
+plans:
+  default-plan:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limits:
+      default:
+        value: 100/1hour
+product: 1.0.0
+visibility:
+  view:
+    enabled: true
+    type: public
+    tags: []
+    orgs: []
+  subscribe:
+    enabled: true
+    type: authenticated
+    tags: []
+    orgs: []
