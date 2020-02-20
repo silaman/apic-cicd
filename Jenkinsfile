@@ -18,8 +18,8 @@ import hudson.model.*
 import org.jenkinsci.plugins.scriptsecurity.sandbox.RejectedAccessException
 
 // Git url of the repo/folder where this Jenkinsfile is placed
-jenkinsfileURL = "https://github.ibm.com/odc/cicd/blob/v7/Jenkinsfile" 
-jenkinsfileBranch = "v7"
+jenkinsfileURL = "https://github.com/silaman/apic-cicd/blob/master/Jenkinsfile" 
+jenkinsfileBranch = "master"
 
 //Credential objects defined in Jenkins
 gitCredentials = "b8aa7a6f-58ce-4bdc-a6af-d9cd3dc4e82b"
